@@ -1,0 +1,65 @@
+html, body {
+	height: 100%;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	border: 0 0 0 0;
+}
+
+#content {
+	width: 1200px;
+	min-height: 100%;
+	margin: 20px auto;
+
+}
+
+.third {
+	width: 340px;
+	height: 100%;
+	background: #f2f2f2;
+	float: left;
+	margin-left: 20px;
+	padding: 20px;
+}
+
+.title {
+	font-weight: bold;
+	font-size: 20px;
+	font-family: helvetica, arial, sans-serif;
+}
+
+textarea{
+	background: none;
+	width: 100%;
+	text-align:left;
+	height: 600px;
+	font-family: courier, monospace;
+	border: none;
+	overflow: hidden;
+}
+
+#top{
+	font-weight: bold;
+	font-size: 20px;
+	font-family: helvetica, arial, sans-serif;
+	margin: 20px;
+}
+
+.info {
+	font-size: 16px;
+	font-weight: normal;
+	float: right;
+}
+
+a:visted {
+	color: black;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	border-bottom: 1px dotted;
+}
+
+a:hover {
+	border-bottom: 1px solid;
+}

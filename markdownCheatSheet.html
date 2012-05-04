@@ -1,0 +1,122 @@
+<!doctype HTML>
+<html>
+<head>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div id="content">
+		<div id="top"><a href="http://daringfireball.net/projects/markdown/syntax">Much Better Reference</a><span class="info"><a href="#">Fork This</a> | <a href="http://mksht.crisnoble.com">MKSHT</a> x <a href="http://crisnoble.com">Cris Noble</a></span></div>
+		<div class="third" id="left">
+			<div class="title">Markdown</div>
+			<hr>
+			<textarea>
+#Headers need # infront
+###Three hashes makes H3 and so on
+You can also underline to create headers
+--------
+**I am bold** and __so am i__  
+_I am italic_  and *me too*  
+Never forget that two spaces at the end of
+ a line will force a break, but a single return won't.  
+`code is wrapped in backticks(``) `  
+
+    or tabbed / 4 space indented  
+and in spain they say  
+>The rain falls on the plains  
+
+Although that is widely [disputed][1].  
+Inline [links](http://google.com "google") are somewhat 
+easier to remember for me.
+
+Two returns create a new paragraph.
+***
+You can also make a horizontal line if you want.  
+The last useful thing to do is an image  
+![alt text](http://placehold.it/200x200 "title")  
+*   lists have an astrix  
+*   followed by 3 spaces
+
+[1]: http://wikipedia.com "not sure about spain rain"
+</textarea>
+		</div>
+		<div class="third" id="right">
+			<div class="title">Rendered HTML</div>
+			<hr>
+			<textarea>
+<h1>Headers need # infront</h1>
+
+<h3>Three hashes makes H3 and so on</h3>
+
+<h2>You can also underline to create headers</h2>
+
+<p><strong>I am bold</strong> and <strong>so am i</strong> <br>
+<em>I am italic</em>  and <em>me too</em> <br>
+Never forget that two spaces at the end of
+ a line will force a break, but a single return won't. <br>
+<code>code is wrapped in backticks(``)</code>  </p>
+
+<pre><code>or tabbed / 4 space indented  
+</code></pre>
+
+<p>and in spain they say  </p>
+
+<blockquote>
+  <p>The rain falls on the plains  </p>
+</blockquote>
+
+<p>Although that is widely <a href="http://wikipedia.com" title="not sure about spain rain">disputed</a>. <br>
+Inline <a href="http://google.com" title="google">links</a> are somewhat 
+easier to remember for me.</p>
+
+<p>Two returns create a new paragraph.</p>
+
+<hr>
+
+<p>You can also make a horizontal line if you want. <br>
+The last useful thing to do is an image <br>
+<img src="http://placehold.it/200x200" alt="alt text" title="title"> <br>
+*   lists have an astrix <br>
+*   followed by 3 spaces</p>
+			</textarea>
+		</div>
+		<div class="third" id="right">
+			<div class="title">Output</div>
+				<hr>
+				<h1>Headers need # infront</h1>
+
+				<h3>Three hashes makes H3 and so on</h3>
+
+				<h2>You can also underline to create headers</h2>
+
+				<p><strong>I am bold</strong> and <strong>so am i</strong> <br>
+				<em>I am italic</em>  and <em>me too</em> <br>
+				Never forget that two spaces at the end of
+				 a line will force a break, but a single return won't. <br>
+				<code>code is wrapped in backticks(``)</code>  </p>
+
+				<pre><code>or tabbed / 4 space indented  
+				</code></pre>
+
+				<p>and in spain they say  </p>
+
+				<blockquote>
+				  <p>The rain falls on the plains  </p>
+				</blockquote>
+
+				<p>Although that is widely <a href="http://wikipedia.com" title="not sure about spain rain">disputed</a>. <br>
+				Inline <a href="http://google.com" title="google">links</a> are somewhat 
+				easier to remember for me.</p>
+
+				<p>Two returns create a new paragraph.</p>
+
+				<hr>
+
+				<p>You can also make a horizontal line if you want. <br>
+				The last useful thing to do is an image <br>
+				<img src="http://placehold.it/200x200" alt="alt text" title="title"> <br>
+				*   lists have an astrix <br>
+				*   followed by 3 spaces</p>
+		</div>
+	</div>
+</body>
+</html>
